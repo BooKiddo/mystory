@@ -1,0 +1,26 @@
+music-player {
+ width: 300px;
+ margin: auto;
+ font-family: Arial, sans-serif;
+}
+#audio-player {
+ width: 100%;
+ margin-bottom: 10px;
+}
+playlist {
+ list-style: none;
+ padding: 0;
+}
+playlist li {
+ padding: 10px;
+ background: #f4f4f4;
+ margin-bottom: 5px;
+ cursor: pointer;
+}
+playlist li:hover {
+ background: #ddd;
+}
+playlist li.active {
+ background: #007bff;
+ color: white;
+}
